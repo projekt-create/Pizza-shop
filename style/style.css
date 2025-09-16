@@ -20,15 +20,27 @@ border: 1px solid #1E0C00;
 background-color: #1E0C00;
 }
 
+.heder_wrapper{
+width: 100%;
+height: 90px;
+position: fixed;
+background-color: #1E0C00;
+border: 2px solid #1E0C00;
+border-radius: 10px;
+top: 0%;
+z-index: 10;
+display: flex;
+align-items: center;
+}
+
 .navbar{
 position: relative;
-width: 1367px;
+width: 1267px;
 margin: 40px auto;
 }
 
 .header{
-position: fixed;
-width: 1367px;
+width: 1267px;
 height: 48px;
 margin: auto;
 display: flex;
@@ -119,6 +131,10 @@ height: 40px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+}
+
+.left_img{
+margin-left: -30px;
 }
 
 .login_in{
@@ -246,6 +262,13 @@ width: 300px;
 margin-left: -25px;
 }
 
+.Video{
+position: absolute;
+z-index: 2;
+margin-top: 46px;
+margin-left: 46px;
+}
+
 .navbar_right_div2{
 width: 388px;
 height: 62px;
@@ -336,7 +359,7 @@ margin-top: -110px;
 .free{
 z-index: 2;
 position: absolute;
-margin-left: -100px;
+margin-left: -130px;
 margin-top: -200px;
 }
 
